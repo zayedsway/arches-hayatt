@@ -11,6 +11,10 @@ const cormorant = Cormorant_Garamond({
 export const metadata = {
   title: 'Arches Hayatt | Architecture for Life',
   description: 'Boutique architectural firm specializing in timeless, living structures.',
+    icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  },
 }
 
 export default function RootLayout({
