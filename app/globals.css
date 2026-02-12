@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #121416;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevents the messy scrolling */
+}
+
+/* Custom Serif for that high-end look */
+.font-serif {
+  font-family: var(--font-cormorant), serif;
+}
