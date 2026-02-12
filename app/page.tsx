@@ -1,10 +1,11 @@
-import React from 'react';
+import Header from './Header';
+import Hero from './Hero';
 
-const LandingPage: React.FC = () => {
+const LandingPage = () => {
     return (
         <div>
-            <h1>Welcome to the App!</h1>
-            <p>This is the main landing page.</p>
+            <Header />
+            <Hero />
         </div>
     );
 };
